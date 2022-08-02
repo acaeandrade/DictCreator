@@ -1,7 +1,9 @@
 class Main:
+
     def __init__(self):
         self.bol = False
         self.bol2 = False
+
         while not self.bol:
 
             self.opt1 = input("Add char or str to a password created ? (Y/N): ")
@@ -89,6 +91,7 @@ class Main:
             self.FILE.close()
         except:
             self.FILE.close()
+
 
     def _private_verify(self):
         pass
